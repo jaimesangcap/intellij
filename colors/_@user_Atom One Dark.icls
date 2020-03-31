@@ -4,7 +4,7 @@
     <property name="created">2020-03-31T20:22:37</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.3.4.0.0</property>
-    <property name="modified">2020-03-31T20:37:38</property>
+    <property name="modified">2020-03-31T20:43:26</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -622,7 +622,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="b9cad6" />
+        <option name="FOREGROUND" value="a6b8c4" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -706,7 +706,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="f1747e" />
+        <option name="FOREGROUND" value="df7373" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
@@ -716,7 +716,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="afe18c" />
+        <option name="FOREGROUND" value="a6d886" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -1237,7 +1237,6 @@
     <option name="Head symbol">
       <value>
         <option name="FOREGROUND" value="5f9cda" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="Head symbol from clojure.core">
