@@ -23,6 +23,7 @@
   <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
+  <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
   <action id="DBNavigator.Actions.MainMenu.OpenSQLConsole" />
   <action id="Deps.RefreshProjects">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
