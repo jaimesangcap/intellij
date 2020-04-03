@@ -2,5 +2,6 @@
   <component name="ClojureIdeSettings">
     <option name="structuralStyle" value="2" />
     <option name="structuralTogglesOff" value="false" />
+    <option name="twoSemicolonComments" value="true" />
   </component>
 </application>
