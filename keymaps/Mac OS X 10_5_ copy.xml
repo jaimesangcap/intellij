@@ -26,6 +26,9 @@
   <action id=":cursive.repl.actions/jump-to-repl">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id=":cursive.repl.actions/toggle-repl-editor-type">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
