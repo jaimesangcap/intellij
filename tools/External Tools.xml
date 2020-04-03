@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="shadow-cljs" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="shadow-cljs" />
+      <option name="PARAMETERS" value="watch app" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/code/github.com/limeray" />
+    </exec>
+  </tool>
+</toolSet>
