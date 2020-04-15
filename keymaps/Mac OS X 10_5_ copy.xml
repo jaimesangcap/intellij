@@ -50,6 +50,9 @@
   <action id="Cursive.Repl.Command.(shadow/repl :app)">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
+  <action id="Cursive.Repl.Command.dev/reset">
+    <keyboard-shortcut first-keystroke="meta f11" />
+  </action>
   <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
