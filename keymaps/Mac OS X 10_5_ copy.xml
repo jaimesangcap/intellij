@@ -29,11 +29,14 @@
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id=":cursive.testing.actions/rerun-last-test">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta i" />
+  </action>
   <action id=":cursive.testing.actions/run-ns-tests">
-    <keyboard-shortcut first-keystroke="shift meta i" />
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
   </action>
   <action id=":cursive.testing.actions/run-single-test">
-    <keyboard-shortcut first-keystroke="shift meta u" />
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
