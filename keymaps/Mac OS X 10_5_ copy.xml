@@ -29,6 +29,12 @@
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
+  <action id=":cursive.testing.actions/run-single-test">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
@@ -53,9 +59,13 @@
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="EditorTab" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="ctrl meta alt u" />
+  </action>
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
