@@ -4,7 +4,7 @@
     <property name="created">2020-03-31T20:22:37</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.3.4.0.0</property>
-    <property name="modified">2020-04-03T21:46:03</property>
+    <property name="modified">2020-05-06T00:03:12</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -50,7 +50,7 @@
     <option name="FILESTATUS_addedOutside" value="98c379" />
     <option name="FILESTATUS_changelistConflict" value="ff6347" />
     <option name="FILESTATUS_modifiedOutside" value="e5c17c" />
-    <option name="GUTTER_BACKGROUND" value="22262e" />
+    <option name="GUTTER_BACKGROUND" value="21252c" />
     <option name="INDENT_GUIDE" value="37474f" />
     <option name="INFORMATION_HINT" value="282c34" />
     <option name="LINE_NUMBERS_COLOR" value="475f63" />
