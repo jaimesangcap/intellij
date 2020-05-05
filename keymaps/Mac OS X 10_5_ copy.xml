@@ -30,12 +30,6 @@
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
-  <action id=":cursive.testing.actions/run-ns-tests">
-    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
-  </action>
-  <action id=":cursive.testing.actions/run-single-test">
-    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta i" />
-  </action>
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
@@ -56,6 +50,9 @@
   </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run">
     <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
+  <action id="Cursive.Repl.Command.kaocha.repl/run-all">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
   </action>
   <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
     <keyboard-shortcut first-keystroke="alt f11" />
