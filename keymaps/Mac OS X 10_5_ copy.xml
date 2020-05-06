@@ -26,7 +26,6 @@
   <action id=":cursive.repl.actions/jump-to-repl">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id=":cursive.repl.actions/sync-files" />
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
@@ -46,7 +45,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="Cursive.Repl.Command.dev/reset">
-    <keyboard-shortcut first-keystroke="shift meta m" />
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta m" />
   </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run">
     <keyboard-shortcut first-keystroke="shift meta i" />
