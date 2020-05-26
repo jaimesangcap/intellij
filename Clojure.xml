@@ -1,5 +1,6 @@
 <application>
   <component name="ClojureIdeSettings">
+    <option name="loadFormsInReplNs" value="true" />
     <option name="structuralStyle" value="1" />
     <option name="structuralTogglesOff" value="false" />
     <option name="twoSemicolonComments" value="true" />
