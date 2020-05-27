@@ -64,12 +64,21 @@
   <action id="Deps.RefreshProjects">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
   <action id="EditorTab" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
   </action>
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="Replace" />
   <action id="ShelveChanges.UnshelveWithDialog" />
