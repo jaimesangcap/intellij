@@ -1,7 +1,5 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="compactMenus" value="true" />
-    <option name="contrastMode" value="true" />
     <option name="accentScrollbars" value="false" />
     <option name="compactDropdowns" value="true" />
     <option name="compactSidebar" value="true" />
@@ -14,8 +12,7 @@
     <option name="customSidebarHeight" value="22" />
     <option name="rightTreeIndent" value="6" />
     <option name="accentColor" value="416a9b" />
-    <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="2e9388e6:16a7ec3acb2:-8000" />
-    <option name="version" value="5.2.0" />
+    <option name="version" value="3.10.0" />
   </component>
 </application>
