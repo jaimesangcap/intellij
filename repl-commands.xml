@@ -1,8 +1,8 @@
 <application>
   <component name="ReplCommandManager">
-    <repl-command name="(shadow/repl :app)" executionType="EXPRESSION" commandText="(shadow.cljs.devtools.api/repl :app)" executeBefore="SYNC_ALL" executionNs="REPL_CURRENT" inNamespace="" saveAll="false" />
+    <repl-command name="(shadow/repl :app)" executionType="EXPRESSION" commandText="(shadow.cljs.devtools.api/repl :app)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="false" />
     <repl-command name="dev/reset" executionType="EXPRESSION" commandText="(dev/reset)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
-    <repl-command name="kaocha.repl/run" executionType="EXPRESSION" commandText="(kaocha.repl/run '~current-test-var)" executeBefore="SYNC_ALL" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
-    <repl-command name="kaocha.repl/run-all" executionType="EXPRESSION" commandText="(kaocha.repl/run-all)" executeBefore="SYNC_ALL" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
+    <repl-command name="kaocha.repl/run" executionType="EXPRESSION" commandText="(krepl/run '~current-test-var)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="dev" saveAll="true" />
+    <repl-command name="kaocha.repl/run-all" executionType="EXPRESSION" commandText="(krepl/run-all)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="dev" saveAll="true" />
   </component>
 </application>
