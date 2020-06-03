@@ -1,7 +1,6 @@
 <code_scheme name="Default" version="173">
   <ClojureCodeStyleSettings>{
   :cursive.formatting/align-maps false
-  :cursive.formatting/default-only-indent true
 }</ClojureCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="true">
