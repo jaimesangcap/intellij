@@ -26,7 +26,9 @@
   <action id=":cursive.repl.actions/jump-to-repl">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id=":cursive.repl.actions/sync-files" />
+  <action id=":cursive.repl.actions/sync-files">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta m" />
+  </action>
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
