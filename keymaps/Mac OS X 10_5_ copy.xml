@@ -71,6 +71,12 @@
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="Replace" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SplitVertically">
