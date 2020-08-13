@@ -35,6 +35,9 @@
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id=":cursive.testing.actions/run-single-test">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta i" />
+  </action>
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
@@ -76,17 +79,12 @@
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="GoToTab1">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="GoToTab2">
     <keyboard-shortcut first-keystroke="alt 2" />
-  </action>
-  <action id="GotoNextBookmark">
-    <keyboard-shortcut first-keystroke="meta alt up" />
-  </action>
-  <action id="GotoPreviousBookmark">
-    <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
   <action id="Replace" />
   <action id="ShelveChanges.UnshelveWithDialog" />
