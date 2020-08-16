@@ -1,6 +1,9 @@
 <code_scheme name="Default" version="173">
   <ClojureCodeStyleSettings>{
+  :clojure.core/defn 4
   :cursive.formatting/align-maps false
+  :limeray.web.component/$ :only-indent
+  :limeray.web.component/defnc :only-indent
 }</ClojureCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="true">
