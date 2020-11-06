@@ -1,6 +1,5 @@
 <code_scheme name="Default" version="173">
   <ClojureCodeStyleSettings>{
-  :clojure.core/defn 4
   :cursive.formatting/align-maps false
   :cursive.formatting/default-only-indent true
   :limeray.web.component/$ :only-indent
