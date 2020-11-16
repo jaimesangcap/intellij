@@ -10,6 +10,7 @@
       <mapping ext="jsb3" type="JSON" />
       <mapping ext="jsb2" type="JSON" />
       <mapping pattern=".stylelintignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env.unicorns" type="PLAIN_TEXT" />
       <mapping pattern=".jshintignore" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
       <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
