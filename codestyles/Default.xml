@@ -1,8 +1,9 @@
 <code_scheme name="Default" version="173">
   <ClojureCodeStyleSettings>{
   :cursive.formatting/align-maps false
+  :cursive.formatting/default-only-indent true
   :limeray.web.component/$ :only-indent
-  :limeray.web.component/defnc 1
+  :limeray.web.component/defnc :only-indent
 }</ClojureCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="true">
