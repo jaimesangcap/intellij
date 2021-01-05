@@ -41,10 +41,14 @@
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
   <action id="ActivateREPLToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStructureToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
@@ -55,17 +59,14 @@
   <action id="Cursive.Repl.Command.(shadow/repl :app)">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
-  <action id="Cursive.Repl.Command.dev/reset">
-    <keyboard-shortcut first-keystroke="shift meta m" />
-  </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run-all">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
   </action>
-  <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
-    <keyboard-shortcut first-keystroke="alt f11" />
+  <action id="Cursive.Repl.Command.user/reset">
+    <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
   <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
   <action id="DBNavigator.Actions.MainMenu.OpenSQLConsole" />
@@ -87,6 +88,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="Replace" />
+  <action id="RunJsbtTask" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta back_slash" />
@@ -97,4 +99,7 @@
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="ViewNavigationBar">
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
 </keymap>
