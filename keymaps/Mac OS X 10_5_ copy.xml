@@ -59,6 +59,9 @@
   <action id="Cursive.Repl.Command.(shadow/repl :app)">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
+  <action id="Cursive.Repl.Command.add-libs">
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta a" />
+  </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
@@ -99,6 +102,7 @@
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="Vcs.UpdateProject" />
   <action id="ViewNavigationBar">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>

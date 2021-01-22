@@ -4,5 +4,6 @@
     <repl-command name="user/reset" executionType="EXPRESSION" commandText="(reset)" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="user" saveAll="true" />
     <repl-command name="kaocha.repl/run" executionType="EXPRESSION" commandText="(krepl/run '~current-test-var)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="dev" saveAll="true" />
     <repl-command name="kaocha.repl/run-all" executionType="EXPRESSION" commandText="(krepl/run-all)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="dev" saveAll="true" />
+    <repl-command name="add-libs" executionType="EXPRESSION" commandText="(clojure.tools.deps.alpha.repl/add-lib '~selection)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
   </component>
 </application>
