@@ -23,6 +23,9 @@
   <action id=":cursive.actions.paredit/splice-killing-forwards">
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
+  <action id=":cursive.actions.paredit/wrap-paren">
+    <keyboard-shortcut first-keystroke="shift meta left_parenthesis" />
+  </action>
   <action id=":cursive.repl.actions/jump-to-output">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
