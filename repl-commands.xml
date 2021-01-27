@@ -5,5 +5,7 @@
     <repl-command name="kaocha.repl/run" executionType="EXPRESSION" commandText="(krepl/run '~current-test-var)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="dev" saveAll="true" />
     <repl-command name="kaocha.repl/run-all" executionType="EXPRESSION" commandText="(krepl/run-all)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="dev" saveAll="true" />
     <repl-command name="add-libs" executionType="EXPRESSION" commandText="(add-libs '~selection)" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="clojure.tools.deps.alpha.repl" saveAll="true" />
+    <repl-command name="shadow-watch-compile-all" executionType="EXPRESSION" commandText="(shadow.cljs.devtools.api/watch-compile-all!)" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="shadow.user" saveAll="true" />
+    <repl-command name="shadow watch" executionType="EXPRESSION" commandText="(shadow.cljs.devtools.api/watch :app {:autobuild false})" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="shadow.user" saveAll="true" />
   </component>
 </application>

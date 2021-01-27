@@ -70,6 +70,9 @@
   <action id="Cursive.Repl.Command.kaocha.repl/run-all">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
   </action>
+  <action id="Cursive.Repl.Command.shadow-watch-compile-all">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="Cursive.Repl.Command.user/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
@@ -93,6 +96,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="Replace" />
+  <action id="ReplaceInPath" />
   <action id="RunJsbtTask" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SplitVertically">
