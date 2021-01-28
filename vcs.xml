@@ -13,5 +13,6 @@
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Downloads" />
     <option name="SHOW_WHITESPACES_IN_LST" value="false" />
     <option name="SHOW_LST_ERROR_STRIPE_MARKERS" value="false" />
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
   </component>
 </application>
