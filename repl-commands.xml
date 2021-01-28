@@ -7,5 +7,7 @@
     <repl-command name="add-libs" executionType="EXPRESSION" commandText="(add-libs '~selection)" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="clojure.tools.deps.alpha.repl" saveAll="true" />
     <repl-command name="shadow-watch-compile-all" executionType="EXPRESSION" commandText="(shadow.cljs.devtools.api/watch-compile-all!)" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="shadow.user" saveAll="true" />
     <repl-command name="shadow watch" executionType="EXPRESSION" commandText="(shadow.cljs.devtools.api/watch :app {:autobuild false})" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="shadow.user" saveAll="true" />
+    <repl-command name="tap-sel" executionType="EXPRESSION" commandText="(tap&gt; ~selected-form)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
+    <repl-command name="tap-top" executionType="EXPRESSION" commandText="(tap&gt; ~top-level-form)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
   </component>
 </application>

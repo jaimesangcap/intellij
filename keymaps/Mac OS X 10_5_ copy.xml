@@ -32,6 +32,7 @@
   <action id=":cursive.repl.actions/jump-to-repl">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id=":cursive.repl.actions/run-top-sexp" />
   <action id=":cursive.repl.actions/sync-files">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta m" />
   </action>
@@ -72,6 +73,9 @@
   </action>
   <action id="Cursive.Repl.Command.shadow-watch-compile-all">
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Cursive.Repl.Command.tap-top">
+    <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="Cursive.Repl.Command.user/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />
