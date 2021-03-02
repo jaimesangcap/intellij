@@ -6,6 +6,7 @@
       <mapping pattern=".env.unicorns" type="PLAIN_TEXT" />
       <mapping pattern=".nrepl-port" type="PLAIN_TEXT" />
       <mapping ext="port" type="PLAIN_TEXT" />
+      <mapping ext="bson" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
