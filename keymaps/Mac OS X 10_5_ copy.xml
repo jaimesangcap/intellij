@@ -23,11 +23,17 @@
   <action id=":cursive.actions.paredit/splice-killing-forwards">
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
+  <action id=":cursive.actions.paredit/wrap-paren">
+    <keyboard-shortcut first-keystroke="shift meta left_parenthesis" />
+  </action>
   <action id=":cursive.repl.actions/jump-to-output">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id=":cursive.repl.actions/jump-to-repl">
     <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id=":cursive.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id=":cursive.repl.actions/sync-files">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta m" />
@@ -35,16 +41,25 @@
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
+  </action>
   <action id=":cursive.testing.actions/run-single-test">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta i" />
   </action>
   <action id="ActivateClojureDepsToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="ActivateCommitToolWindow" />
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
+  <action id="ActivateDebugToolWindow" />
   <action id="ActivateREPLToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStructureToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
@@ -55,17 +70,11 @@
   <action id="Cursive.Repl.Command.(shadow/repl :app)">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
-  <action id="Cursive.Repl.Command.dev/reset">
+  <action id="Cursive.Repl.Command.shadow-watch-compile-all">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Cursive.Repl.Command.user/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />
-  </action>
-  <action id="Cursive.Repl.Command.kaocha.repl/run">
-    <keyboard-shortcut first-keystroke="shift meta i" />
-  </action>
-  <action id="Cursive.Repl.Command.kaocha.repl/run-all">
-    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
-  </action>
-  <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
-    <keyboard-shortcut first-keystroke="alt f11" />
   </action>
   <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
   <action id="DBNavigator.Actions.MainMenu.OpenSQLConsole" />
@@ -86,7 +95,16 @@
   <action id="GoToTab2">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
   <action id="Replace" />
+  <action id="ReplaceInPath" />
+  <action id="RunJsbtTask" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta back_slash" />
@@ -97,4 +115,7 @@
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="ViewNavigationBar">
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
 </keymap>

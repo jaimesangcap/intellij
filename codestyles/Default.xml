@@ -1,9 +1,15 @@
 <code_scheme name="Default" version="173">
   <ClojureCodeStyleSettings>{
-  :clojure.core/defn 4
+  :defnc 0
+  :cljs.core/defn 1
+  :cljs.core/defn- 1
+  :clojure.core/defmacro 1
+  :clojure.core/defmethod 1
   :cursive.formatting/align-maps false
+  :cursive.formatting/default-only-indent true
+  :cursive.formatting/force-only-indent true
   :limeray.web.component/$ :only-indent
-  :limeray.web.component/defnc 1
+  :limeray.web.component/defnc :only-indent
 }</ClojureCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="true">
@@ -29,4 +35,24 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
+  <JavaCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+  </JavaCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="PACKAGES_TO_USE_STAR_IMPORTS">
+      <value>
+        <package name="kotlinx.android.synthetic" alias="false" withSubpackages="true" />
+        <package name="io.ktor" alias="false" withSubpackages="true" />
+      </value>
+    </option>
+    <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="100" />
+    <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="100" />
+  </JetCodeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
 </code_scheme>
