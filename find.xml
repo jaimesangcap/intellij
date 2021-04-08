@@ -3,8 +3,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*.test.js" />
     <mask>translations</mask>
     <mask>*.graphql</mask>
     <mask>translations.js</mask>
+    <mask>!*.test.js</mask>
   </component>
 </application>
