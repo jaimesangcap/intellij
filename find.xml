@@ -5,5 +5,7 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>translations</mask>
     <mask>*.graphql</mask>
+    <mask>translations.js</mask>
+    <mask>!*.test.js</mask>
   </component>
 </application>
