@@ -2,6 +2,7 @@
   <component name="ClojureIdeSettings">
     <option name="structuralStyle" value="1" />
     <option name="structuralTogglesOff" value="false" />
+    <option name="maintainSelectionOnWrap" value="true" />
     <option name="twoSemicolonComments" value="true" />
   </component>
 </application>
