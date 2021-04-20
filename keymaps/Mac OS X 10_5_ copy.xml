@@ -42,8 +42,9 @@
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta i" />
   </action>
   <action id="ActivateClojureDepsToolWindow">
-    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateREPLToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
