@@ -62,14 +62,14 @@
   <action id="Cursive.Repl.Command.dev/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
-  <action id="Cursive.Repl.Command.integrant.repl/reset">
-    <keyboard-shortcut first-keystroke="shift meta m" />
-  </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="Cursive.Repl.Command.kaocha.repl/run-all">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
+  </action>
+  <action id="Cursive.Repl.Command.user/reset">
+    <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
   <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
     <keyboard-shortcut first-keystroke="alt f11" />
