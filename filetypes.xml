@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="html" type="Jinja2" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".env.unicorns" type="PLAIN_TEXT" />
@@ -8,6 +9,7 @@
       <mapping pattern=".nrepl-port" type="PLAIN_TEXT" />
       <mapping ext="port" type="PLAIN_TEXT" />
       <mapping ext="bson" type="PLAIN_TEXT" />
+      <removed_mapping ext="html" approved="true" type="HTML" />
     </extensionMap>
   </component>
 </application>
