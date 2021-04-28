@@ -71,9 +71,6 @@
   <action id="Cursive.Repl.Command.user/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
-  <action id="DBNavigator.Actions.MainMenu.DatabaseBrowser">
-    <keyboard-shortcut first-keystroke="alt f11" />
-  </action>
   <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
   <action id="DBNavigator.Actions.MainMenu.OpenSQLConsole" />
   <action id="Deps.RefreshProjects">
@@ -94,6 +91,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="Replace" />
+  <action id="RunJsbtTask" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta back_slash" />
@@ -104,4 +102,7 @@
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="ViewNavigationBar">
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
 </keymap>
