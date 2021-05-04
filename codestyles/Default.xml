@@ -1,13 +1,10 @@
 <code_scheme name="Default" version="173">
   <ClojureCodeStyleSettings>{
   :defnc 0
-  :cljs.core/defn 1
-  :cljs.core/defn- 1
+  :cljs.core/do :only-indent
   :clojure.core/defmacro 1
   :clojure.core/defmethod 1
-  :clojure.core/defn 0
   :cursive.formatting/align-maps false
-  :cursive.formatting/default-only-indent true
   :limeray.web.component/$ :only-indent
   :limeray.web.component/defnc :only-indent
 }</ClojureCodeStyleSettings>
