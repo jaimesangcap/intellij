@@ -38,6 +38,12 @@
   <action id=":cursive.repl.actions/toggle-repl-editor-type">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id=":cursive.testing.actions/rerun-last-test">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
+  </action>
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta n" />
+  </action>
   <action id=":cursive.testing.actions/run-single-test">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta i" />
   </action>
@@ -59,14 +65,11 @@
   <action id="Cursive.Repl.Command.(shadow/repl :app)">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
-  <action id="Cursive.Repl.Command.dev/reset">
-    <keyboard-shortcut first-keystroke="shift meta m" />
-  </action>
-  <action id="Cursive.Repl.Command.kaocha.repl/run">
+  <action id="Cursive.Repl.Command.cljs.test/run-tests">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
-  <action id="Cursive.Repl.Command.kaocha.repl/run-all">
-    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta u" />
+  <action id="Cursive.Repl.Command.dev/reset">
+    <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
   <action id="Cursive.Repl.Command.user/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />

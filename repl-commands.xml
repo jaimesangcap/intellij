@@ -10,5 +10,6 @@
     <repl-command name="tap-sel" executionType="EXPRESSION" commandText="(tap&gt; ~selected-form)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
     <repl-command name="tap-top" executionType="EXPRESSION" commandText="(tap&gt; ~top-level-form)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
     <repl-command name="integrant.repl/reset" executionType="EXPRESSION" commandText="(integrant.repl/reset)" executeBefore="NONE" executionNs="EXPLICIT_NS" inNamespace="user" saveAll="true" />
+    <repl-command name="cljs.test/run-tests" executionType="EXPRESSION" commandText="(cljs.test/run-tests '~current-test-var)" executeBefore="NONE" executionNs="REPL_CURRENT" inNamespace="" saveAll="true" />
   </component>
 </application>
