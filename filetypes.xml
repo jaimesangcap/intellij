@@ -9,6 +9,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".nrepl-port" type="PLAIN_TEXT" />
       <mapping ext="port" type="PLAIN_TEXT" />
+      <mapping ext="node-10-docker-compose" type="PLAIN_TEXT" />
       <mapping ext="bson" type="PLAIN_TEXT" />
       <removed_mapping ext="html" approved="true" type="HTML" />
     </extensionMap>
