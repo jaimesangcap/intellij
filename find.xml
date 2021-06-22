@@ -5,10 +5,12 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>translations</mask>
     <mask>*.graphql</mask>
     <mask>translations.js</mask>
     <mask>!*.test.js</mask>
     <mask>*.test.js</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
