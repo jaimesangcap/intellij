@@ -68,10 +68,10 @@
   <action id="Cursive.Repl.Command.cljs.test/run-tests">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
-  <action id="Cursive.Repl.Command.dev/reset">
-    <keyboard-shortcut first-keystroke="shift meta m" />
+  <action id="Cursive.Repl.Command.dev/go">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="shift meta g" />
   </action>
-  <action id="Cursive.Repl.Command.user/reset">
+  <action id="Cursive.Repl.Command.dev/reset">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
   <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
